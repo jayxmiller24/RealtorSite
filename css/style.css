@@ -8,15 +8,6 @@
     border-radius: 0px;
 
 }
-
-
-.card {
-    margin-top:60px;
-    margin-right:30px;
-    width: auto;
-    margin-bottom:60px;
-
-}
 .card img {
 width: 355px;
 height: 477px;
@@ -99,7 +90,7 @@ height: 477px;
             }
 
             @media (min-width: 768px) {
-
+                
                 /* show 3 items */
                 .carousel-inner .active,
                 .carousel-inner .active + .carousel-item,
@@ -133,13 +124,25 @@ height: 477px;
                 width:auto;
                 height:300px;
             }
-            #mailinglist {
-                width:200px;
-            }
-            #mailing {
-                height: 400px;
-                margin-top: 20px;
-            }
+            
             .btn-success {
                 width:500px;
+            }
+            @media (max-width:667px){
+                #jumbo {
+                        width: auto;
+                        height: 200px;
+                }
+                .overlay{
+                    position:absolute;
+                    top:0;
+                    bottom:0;
+                    left:15px;
+                    height:100%;
+                    width:71%;
+                    opacity:0;
+                    transition:.5s ease;
+                    background-color:rgba(0,0,0,.4)
+                 }
+
             }
