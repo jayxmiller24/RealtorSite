@@ -3,8 +3,9 @@
     background: url("https://townsquare.media/site/204/files/2018/08/spectacular-celebrity-homes.jpg");
     background-repeat: no-repeat;
     width:auto;
-    height: 500px;
+    height: 700px;
     background-size: cover;
+    border-radius: 0px;
 
 }
 
@@ -127,4 +128,18 @@ height: 477px;
                     display: block;
                     visibility: visible;
                 }
+            }
+            .view img {
+                width:auto;
+                height:300px;
+            }
+            #mailinglist {
+                width:200px;
+            }
+            #mailing {
+                height: 400px;
+                margin-top: 20px;
+            }
+            .btn-success {
+                width:500px;
             }
