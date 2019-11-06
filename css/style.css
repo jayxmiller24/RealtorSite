@@ -140,7 +140,8 @@ height: 477px;
             .btn-success {
                 width:500px;
             }
-            @media (max-width:768px){
+            @media (max-width:686px){
+                
                 #jumbo {
                         width: auto;
                         height: 200px;
@@ -167,4 +168,5 @@ height: 477px;
                   .form-control{
                       width: 435px;
                   }
+                  
             }
