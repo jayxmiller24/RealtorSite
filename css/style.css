@@ -1,4 +1,12 @@
 
+.navbar-dark .navbar-brand{
+    color: black;
+}
+
+button .navbar-toggler .navbar-dark{
+    color:black !important;
+}
+
 #jumbo{
     background: url("https://townsquare.media/site/204/files/2018/08/spectacular-celebrity-homes.jpg");
     background-repeat: no-repeat;
@@ -12,6 +20,9 @@
 width: 355px;
 height: 477px;
 }
+.navbar-toggler-icon{
+    color: black !important;
+}
 
 .navbar-inner {
     background:transparent;
@@ -20,6 +31,7 @@ height: 477px;
 #navbarNav{
     color:black !important;
     font-size: bold !important;
+
 
 }
 .navbar-nav{
@@ -128,7 +140,7 @@ height: 477px;
             .btn-success {
                 width:500px;
             }
-            @media (max-width:667px){
+            @media (max-width:768px){
                 #jumbo {
                         width: auto;
                         height: 200px;
@@ -144,5 +156,15 @@ height: 477px;
                     transition:.5s ease;
                     background-color:rgba(0,0,0,.4)
                  }
-
+                 .ml-auto .dropdown-menu {
+                    left: auto !important;
+                    right: 0px;
+                  }
+                  .btn-success{
+                      width: 420px !important;
+                      margin-left:-15px;
+                  }
+                  .form-control{
+                      width: 435px;
+                  }
             }
