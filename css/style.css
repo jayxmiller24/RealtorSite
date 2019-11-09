@@ -1,17 +1,17 @@
 
-.navbar-dark .navbar-brand{
+.navbar-dark .navbar-brand { 
     color: black;
 }
-.logo{
+.logo {
     width: 150px;
     height: 150px;
 }
 
-button .navbar-toggler .navbar-dark{
+button .navbar-toggler .navbar-dark {
     color:black !important;
 }
 
-#jumbo{
+#jumbo {
     background: url("https://townsquare.media/site/204/files/2018/08/spectacular-celebrity-homes.jpg");
     background-repeat: no-repeat;
     height: 700px;
@@ -20,7 +20,7 @@ button .navbar-toggler .navbar-dark{
 
 }
 .card img {
-width: 355px;
+width: auto;
 height: 477px;
 }
 .navbar-toggler-icon{
@@ -31,17 +31,17 @@ height: 477px;
     background:transparent;
     
 }
-#navbarNav{
+#navbarNav {
     color:black !important;
     font-size: bold !important;
 
 
 }
-.navbar-nav{
+.navbar-nav {
     color: black !important;
     font-size: bold !important;
 }
-.nav-item{
+.nav-item {
     color:black !important;
     font-size:bold !important;
 
@@ -50,7 +50,8 @@ height: 477px;
     color: black !important;
     font-size: bold !important;
 }
-.image-text{position:absolute;
+.image-text {
+    position:absolute;
     bottom:0;
     width:100%;
     padding:20px;
@@ -58,21 +59,27 @@ height: 477px;
     text-align:center;
     color:#fff;
     font-weight:700;
-    margin-bottom:0!important}
+    margin-bottom:0!important
+}
 
-    .image-container {position:relative;
-    width:100%}
 
-    .image{display:block;
+    .image-container {
+        position:relative;
+    width:100%
+}
+
+    .image {
+        display:block;
         width:100%;
-        height:auto}
+        height:auto
+    }
         
         .overlay{
             position:absolute;
             top:0;
             bottom:0;
-            left:13px;
-            right:50px;
+            left:0px;
+            right:100px;
             height:100%;
             width:100%;
             opacity:0;
@@ -186,7 +193,7 @@ height: 477px;
                       width: 435px;
                   }
                   .card .card-img-top{
-                    width: 100px;
+                    width: auto;
                     height: 180px;
                   }
             }
