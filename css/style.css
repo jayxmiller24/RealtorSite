@@ -2,6 +2,10 @@
 .navbar-dark .navbar-brand{
     color: black;
 }
+.logo{
+    width: 150px;
+    height: 150px;
+}
 
 button .navbar-toggler .navbar-dark{
     color:black !important;
@@ -10,7 +14,6 @@ button .navbar-toggler .navbar-dark{
 #jumbo{
     background: url("https://townsquare.media/site/204/files/2018/08/spectacular-celebrity-homes.jpg");
     background-repeat: no-repeat;
-    width:auto;
     height: 700px;
     background-size: cover;
     border-radius: 0px;
@@ -131,6 +134,18 @@ height: 477px;
                     display: block;
                     visibility: visible;
                 }
+                
+                .overlay{
+                    position:absolute;
+                    top:0;
+                    bottom:0;
+                    left:15px;
+                    height:100%;
+                    width:88%;
+                    opacity:0;
+                    transition:.5s ease;
+                    background-color:rgba(0,0,0,.4)
+                 }
             }
             .view img {
                 width:auto;
@@ -139,20 +154,22 @@ height: 477px;
             
             .btn-success {
                 width:500px;
-            }
-            @media (max-width:686px){
+            } 
+
+            @media (max-width:684px){
                 
                 #jumbo {
                         width: auto;
                         height: 200px;
                 }
+
                 .overlay{
                     position:absolute;
                     top:0;
                     bottom:0;
                     left:15px;
                     height:100%;
-                    width:71%;
+                    width:85%;
                     opacity:0;
                     transition:.5s ease;
                     background-color:rgba(0,0,0,.4)
@@ -168,5 +185,9 @@ height: 477px;
                   .form-control{
                       width: 435px;
                   }
-                  
+                  .card .card-img-top{
+                    width: 100px;
+                    height: 180px;
+                  }
             }
+            
