@@ -3,8 +3,8 @@
     color: black;
 }
 .logo {
-    width: 150px;
-    height: 150px;
+    width: 130px;
+    height: 130px;
 }
 
 button .navbar-toggler .navbar-dark {
@@ -78,7 +78,7 @@ height: 477px;
             position:absolute;
             top:0;
             bottom:0;
-            left:0px;
+            left:70px;
             right:100px;
             height:100%;
             width:100%;
@@ -148,7 +148,7 @@ height: 477px;
                     bottom:0;
                     left:15px;
                     height:100%;
-                    width:88%;
+                    width:90%;
                     opacity:0;
                     transition:.5s ease;
                     background-color:rgba(0,0,0,.4)
@@ -176,7 +176,7 @@ height: 477px;
                     bottom:0;
                     left:15px;
                     height:100%;
-                    width:85%;
+                    width:83%;
                     opacity:0;
                     transition:.5s ease;
                     background-color:rgba(0,0,0,.4)
